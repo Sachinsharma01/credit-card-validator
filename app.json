@@ -2,6 +2,7 @@
   "expo": {
     "name": "credit-card-details",
     "slug": "credit-card-details",
+    "description": "an app to validate credit cards",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.morr.cards",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
