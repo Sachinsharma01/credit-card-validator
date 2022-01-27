@@ -68,11 +68,13 @@ const CardDetails = () => {
         <Input
           placeholder={"MM/YY"}
           value={date}
+          security={false}
           onChangeText={dateChangeHandler}
         />
         <Input
           placeholder={"Security code"}
           value={securityCode}
+          security={true}
           onChangeText={securityChangeHandler}
         />
       </View>
@@ -80,11 +82,13 @@ const CardDetails = () => {
         <Input
           placeholder={"First Name"}
           value={firstName}
+          security={false}
           onChangeText={firstNameHandler}
         />
         <Input
           placeholder={"Last Name"}
           value={lastName}
+          security={false}
           onChangeText={lastNameHandler}
         />
       </View>
